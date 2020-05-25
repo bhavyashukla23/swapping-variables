@@ -1,0 +1,12 @@
+#include<stdio.h>
+void main()
+{
+
+	int a=10,x=20;
+	printf("enter two  variables before swapping are:\n", a ,"\n",x);
+	x=x+a;
+	a=x-a;
+	x=x-a;
+	printf("the swapped variables now x is %d and a is %d",x,a);
+
+}
